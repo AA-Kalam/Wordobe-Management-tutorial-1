@@ -1,7 +1,7 @@
 # Wordobe-Management-tutorial-1
 این ریپو تمرین اول است
 ## For coding w/ collaboration use one of these options:
-- Local environment
- ### VScode + Microsoft Live share extension
-- Cloud environment
- ### 
+### Local environment
+- VScode + Microsoft Live share extension
+### Cloud environment
+- https://colab.research.google.com/
