@@ -7,6 +7,9 @@
 import datetime
 
 # ---------- داده‌های اولیه لباس‌ها ----------
+# Part 1
+# Mandatory: Reach to 10 rows     |     add 6 more record
+# Optional:  add more columns     |     eg: color, size, .etc    
 products = [
     {"id": 1, "name": "White T-shirt", "price": 150000, "stock": 5},
     {"id": 2, "name": "Jeans", "price": 350000, "stock": 3},
@@ -24,14 +27,20 @@ class CartItem:
         return self.product["price"] * self.quantity
 
 # ---------- نمایش لیست لباس‌ها ----------
+# Part 2
+# Fill it
 def show_products():
     pass
 
 # ---------- جستجوی کالا براساس ID ----------
+# Part 3
+# Fill it
 def find_product_by_id(product_id):
     pass
 
 # ---------- اجرای منوی برنامه ----------
+# DON'T touch yet ⚠
+# تابع هایی که در بخش ۲ و ۳ پر می‌کنید ، ورودی و خروجی ها ش اینجا استفاده میشه
 def main():
     cart = []
 
@@ -118,3 +127,4 @@ def main():
 # ---------- اجرای برنامه ----------
 if __name__ == "__main__":
     main()
+
