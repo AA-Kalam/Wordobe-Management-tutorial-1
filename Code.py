@@ -36,13 +36,17 @@ class CartItem:
 # Part 2
 # Fill it
 def show_products():
-    pass
+    for product in products:
+        print(f"ID: {product['id']}  Name: {product['name']:<20}   Price: {product['price']:<10} Toman  Stock: {product['stock']}")
 
 # ---------- جستجوی کالا براساس ID ----------
 # Part 3
 # Fill it
 def find_product_by_id(product_id):
-    pass
+    for product in products:
+        if product["id"] == product_id:
+            return product
+    
 
 # ---------- اجرای منوی برنامه ----------
 # DON'T touch yet ⚠
@@ -133,5 +137,6 @@ def main():
 # ---------- اجرای برنامه ----------
 if __name__ == "__main__":
     main()
+
 
 
