@@ -11,10 +11,16 @@ import datetime
 # Mandatory: Reach to 10 rows     |     add 6 more record
 # Optional:  add more columns     |     eg: color, size, .etc    
 products = [
-    {"id": 1, "name": "White T-shirt", "price": 150000, "stock": 5},
-    {"id": 2, "name": "Jeans", "price": 350000, "stock": 3},
-    {"id": 3, "name": "leather jacket", "price": 750000, "stock": 2},
-    {"id": 4, "name": "Formal shirt", "price": 250000, "stock": 4},
+    {"id": 1, "name": "T-shirt", "color": "white", "size": "M", "price": 150000, "stock": 5},
+    {"id": 2, "name": "Jeans", "color": "blue", "size": "32", "price": 350000, "stock": 3},
+    {"id": 3, "name": "leather jacket", "color": "brown", "size": "XXXL", "price": 750000, "stock": 2},
+    {"id": 4, "name": "Suit shirt", "color": "white", "size": "XXL", "price": 250000, "stock": 4},
+    {"id": 5, "name": "Hoodie", "color": "black", "size": "L", "price": 420000, "stock": 6},
+    {"id": 6, "name": "Summer dress", "color": "red", "size": "S", "price": 300000, "stock": 4},
+    {"id": 7, "name": "Chinos", "color": "khaki", "size": "34", "price": 280000, "stock": 5},
+    {"id": 8, "name": "Leather boots", "color": "black", "size": "42", "price": 650000, "stock": 2},
+    {"id": 9, "name": "Polo shirt", "color": "navy", "size": "M", "price": 180000, "stock": 7},
+    {"id":10, "name": "Cardigan", "color": "gray", "size": "L", "price": 370000, "stock": 3},
 ]
 
 # ---------- کلاس سبد خرید ----------
@@ -127,4 +133,5 @@ def main():
 # ---------- اجرای برنامه ----------
 if __name__ == "__main__":
     main()
+
 
