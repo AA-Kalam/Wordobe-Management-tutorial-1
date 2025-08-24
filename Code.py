@@ -36,8 +36,8 @@ class CartItem:
 # Part 2
 # Fill it
 def show_products():
-    for product in products:
-        print(f"ID: {product['id']}  Name: {product['name']:<20}   Price: {product['price']:<10} Toman  Stock: {product['stock']}")
+    for product in products:    # < left allign   > right allign    ^ center allign     number ? cell space    # color and size column added    # < shifted to ^
+        print(f"ID: {product['id']}  Name: {product['name']:^20}  Color: {product['color']:^10}  Size: {product['size']:^6} Price: {product['price']:^10} Toman  Stock: {product['stock']}")
 
 # ---------- جستجوی کالا براساس ID ----------
 # Part 3
@@ -137,6 +137,7 @@ def main():
 # ---------- اجرای برنامه ----------
 if __name__ == "__main__":
     main()
+
 
 
 
