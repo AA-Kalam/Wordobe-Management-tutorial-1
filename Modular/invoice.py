@@ -29,21 +29,21 @@ def finalize_order(cart):
     print(f"Customer: {name}")
     print(f"Date: {now}")
     total = cart.total()
-    # json
+    # json    ## item 
     items = [{"name": item.product['name'], "quantity": item.quantity} for item in cart]
     #
     for item in cart:
         print(f"- {item.product['name']} × {item.quantity}")
     print(f"Amount payable: {total} Toman")
-# json
+    # json
     invoice_data = {
         "date": now,
         "customer": name,
         "total": total,
-        "items": items
+        "items": items     ## item    ### tbh output is ugly af but it work so...   
     }
     filename = f"orders_{name}.json"
-    
+    #
     try:
         # Load existing invoices if file exists
         if os.path.exists(filename):
